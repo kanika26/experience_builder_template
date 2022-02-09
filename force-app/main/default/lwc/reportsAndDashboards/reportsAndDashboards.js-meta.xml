@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+  
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="select" type="String" label="Choose the Image" datasource="apex://MyCustomPickList" />
+             <!-- <property name="imageUrl" label="Image Url" type="String" default="/sfsites/c/resource/1644239967000/heroImage"  /> -->
+             <property name="imageHeight" label="Image:Height in px" type="Integer" default="200"/>
+       
+        </targetConfig>
+
+    </targetConfigs>
+  
+        
+    
+   
+</LightningComponentBundle>

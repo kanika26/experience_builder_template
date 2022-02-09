@@ -1,0 +1,10 @@
+.slds_container {
+    position: relative;
+    background-image : var(--background);
+    background-repeat:no-repeat;
+  
+    background-size: 100% !important;
+    
+    background-size: cover;
+    min-height:500px !important; 
+}
